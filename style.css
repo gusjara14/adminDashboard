@@ -1,3 +1,5 @@
+
+
 * {
     /* This border will cause a slight scroll bar to appear 
     but will be removed when this is commented out. */
@@ -17,6 +19,7 @@
 
 .sidebar {
     grid-row:1/4;
+    background-color: #facc15;
 }
 
 .header {
@@ -30,7 +33,8 @@
     gap:20px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows:1fr 1fr
+    grid-template-rows:1fr 1fr;
+    background-color: #fde68a;
 }
 
 .projects {
