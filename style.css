@@ -65,19 +65,20 @@ li > svg {
     margin-right:4px;
 }
 
-svg {
-    height:2rem;
+h1 > svg {
+    height:3.4rem;
+    flex-shrink:0;
+    margin-right:8px;
 }
 
 .sidebar-title {
     display:flex;
+    flex-wrap: nowrap;
+    align-items:flex-start;
 }
 
-/* .sidebar.title > svg{
-    height: 1.4rem;
-    margin-right:8px;
-}
-.sidebar.title > h1 {
+.sidebar-title > h1 {
     display:flex;
-    align-items:center;
-} */
+    align-items: center;
+    flex-shrink:1;
+}
