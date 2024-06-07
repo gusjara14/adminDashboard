@@ -32,6 +32,8 @@ side-content-1 {
 }
 .header {
     grid-column: 2/3;
+    display:grid;
+    grid-template-rows: 1fr 1.4fr;
 
 }
 
@@ -81,4 +83,43 @@ h1 > svg {
     display:flex;
     align-items: center;
     flex-shrink:1;
+}
+
+.header-top > svg {
+    height:1.4rem;
+    margin-right:4px;
+}
+
+.header-top {
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.search {
+    flex:2;
+}
+
+.header-bottom {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+}
+
+.introduction{
+  justify-content: flex-end;
+}
+
+.buttons {
+    display:flex;
+    justify-content:flex-end;
+    gap:16px;
+}
+
+.buttons > button {
+    background-color:#facc15;
+    width:6rem;
+    height:2rem;
+    border-radius:16px;
+
 }
