@@ -102,12 +102,13 @@ h1 > svg {
 
 .header-bottom {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 8fr 8fr;
     align-items:center;
 }
 
 .introduction{
-  justify-content: flex-end;
+    min-width:200px;;
+      /* justify-content: flex-end; */
 }
 
 .buttons {
@@ -123,3 +124,24 @@ h1 > svg {
     border-radius:16px;
 
 }
+
+.profile-picture-1 {
+    height:45px;
+    flex-shrink:1;
+    border-radius: 50px;
+
+}
+
+.profile-picture-2 {
+    height:55px;
+    flex-shrink:1;
+    border-radius: 50px;
+
+}
+
+.header-bottom > a {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
