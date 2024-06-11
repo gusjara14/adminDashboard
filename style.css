@@ -38,6 +38,7 @@ side-content-1 {
 }
 
 .content {
+    padding:1rem;
     grid-column: 2/3;
     grid-row:2/4;
     gap:20px;
@@ -143,5 +144,16 @@ h1 > svg {
     display:flex;
     justify-content:center;
     align-items:center;
+}
+
+.projects {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 8fr 8fr 8fr;
+    gap:1rem;
+}
+
+.projects > h1{
+    grid-column: 1/3;
 }
 
