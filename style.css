@@ -149,7 +149,7 @@ h1 > svg {
 .projects {
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 8fr 8fr 8fr;
+    grid-template-rows: 0.5fr 8fr 8fr 8fr;
     gap:1rem;
 }
 
