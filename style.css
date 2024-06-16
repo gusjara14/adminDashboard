@@ -161,10 +161,18 @@ h1 > svg {
     background-color: #ffffff;
     border-radius: 25px;
     padding: 1rem;
-    height:auto;
+    flex:1;
     /* display:flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items:stretch; */
 }
+
+.announcements, .trending {
+    display:flex;
+    flex-direction:column;
+
+}
+
+
 
