@@ -161,7 +161,7 @@ h1 > svg {
     background-color: #ffffff;
     border-radius: 25px;
     padding: 1rem;
-    flex:1;
+    flex:1 0 200px;
     /* display:flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -171,6 +171,14 @@ h1 > svg {
 .announcements, .trending {
     display:flex;
     flex-direction:column;
+
+}
+
+.announcements > .card, .trending > .card {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap:1rem;
 
 }
 
