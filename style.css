@@ -97,6 +97,10 @@ h1 > svg {
     gap:8px;
 }
 
+.bell-notification {
+    height:25px;
+    width:25px;
+}
 
 .search {
     flex:2;
@@ -111,6 +115,7 @@ h1 > svg {
 .header-bottom, .header-top {
     padding:0 1rem;
 }
+
 .introduction{
     min-width:200px;;
       /* justify-content: flex-end; */
@@ -215,6 +220,7 @@ h1 > svg {
 button {
     background-color: rgba(255, 255, 255, 0);
 }
+
 .project-button > button > svg{
     height:25px;
     width:25px;
