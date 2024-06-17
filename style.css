@@ -3,7 +3,7 @@
 * {
     /* This border will cause a slight scroll bar to appear 
     but will be removed when this is commented out. */
-    /* border: 1px solid red; */
+    border: 1px solid red;
 
     margin:0px;
     padding:0px;
@@ -97,6 +97,7 @@ h1 > svg {
     gap:8px;
 }
 
+
 .search {
     flex:2;
 }
@@ -107,6 +108,9 @@ h1 > svg {
     align-items:center;
 }
 
+.header-bottom, .header-top {
+    padding:0 1rem;
+}
 .introduction{
     min-width:200px;;
       /* justify-content: flex-end; */
