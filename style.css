@@ -43,7 +43,7 @@ side-content-1 {
     grid-row:2/4;
     gap:20px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-rows:1fr 1fr;
     background-color: #fde68a;
 }
@@ -171,7 +171,6 @@ h1 > svg {
 .announcements, .trending {
     display:flex;
     flex-direction:column;
-
 }
 
 .announcements > .card, .trending > .card {
