@@ -199,6 +199,7 @@ h1 > svg {
 
 .announcements-text {
     max-height: 150px;
+    margin-top:0.5rem;
     overflow: hidden;
     text-overflow: ellipsis;
 }
